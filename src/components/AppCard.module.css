@@ -4,13 +4,19 @@
 
 .card {
     background-color: white;
-    
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .image {
-    width: 100%;
     min-height: 15rem;
     background-color: #CCCCCC; 
+}
+
+.image img{
+    display: block;
+    object-fit: cover;
+    
 }
 
 

@@ -7,7 +7,7 @@ function AppCard() {
     return (
         <div className={style.card}>
             <div className={style.image}>
-                <img src="" alt="" />
+                <img src="/img/ciambellone.jpeg" alt="" />
             </div>
             <div className={style.content}>
                 <h5 className={style.title}>Titolo del Post</h5>
